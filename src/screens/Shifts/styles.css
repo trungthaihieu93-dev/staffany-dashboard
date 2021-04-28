@@ -1,0 +1,39 @@
+.shiftsContainer {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  flex: 1;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.scheduleContainer {
+  display: flex;
+  flex: 6;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.schedule {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.scheduleHeader {
+  display: flex;
+  height: 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.publishButton {
+  width: 100px;
+  margin-left: 10px;
+}
